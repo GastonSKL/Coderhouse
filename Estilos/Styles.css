@@ -1,0 +1,265 @@
+
+
+.cuerpo {
+    background: rgb(96, 211, 211);
+    font-family: 'Roboto';
+    
+}
+
+.cabecera {
+    background: black;
+}
+
+.TituloPrincipal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-weight:bolder;
+    background: black;
+    padding: 0px 60px;
+    color: white;
+
+}
+
+.menu { 
+    width: 100%;
+    
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    
+    
+}
+
+.menu li a {
+    padding: 0px 30px;
+    display: inline block;
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.menu li a:hover {
+    background: gray;
+    color: black;
+    transform: scale(1.1);
+}
+
+.sub {
+    width: 100%;
+}
+
+.sub h3{
+    
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+
+.imagenGato {
+    width: 100%;
+    background: moccasin;
+    
+}
+
+img {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.imagenGato img{
+    transition: all 0.5s ease-in-out;
+}
+
+.imagenGato img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Contact {
+    font-family:'Roboto', sans-serif;
+    font-weight:bolder;
+    color: black;
+
+}
+
+.Contact:hover {
+    color:blue;
+    cursor: pointer;
+    
+
+}
+
+.dudas h3{
+    transition: 0.3s;
+}
+
+.dudas h3:hover {
+    transform: scaleX(1.03)
+}
+
+.OldPrince {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.Exellent {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.articulo {
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.SubCompras{
+    width: 500px;
+    margin: auto;
+}
+
+.Formulario {
+    width: 500px;
+    margin: auto;
+}
+
+.padre {
+    background: cyan;
+    width: 100%;
+}
+
+.padre .text {
+    position: relative;
+    left: 700px;
+
+}
+
+.padre .imagen1 {
+    position: relative;
+    left: 20px;
+    
+
+}
+
+.flexbox-conteiner {
+    display:flex;
+    justify-content:center;
+    
+
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    background-color: chocolate;
+
+}
+
+.flexbox-item-1{
+
+    min-height: 200px;
+
+}
+
+.flexbox-item-1 img{
+    max-width: 200px;
+    min-height: 200px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+
+}
+
+.flexbox-item-2 img{
+    max-width: 200px;
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 150px;
+
+}
+
+.flexbox-item-3 img{
+    max-width: 200px;
+    min-height: 200px;
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: 100px 150px;
+    grid-template-areas: 
+    "header header"
+    "sidebar articulo"
+    "footer footer";
+    justify-content: center;
+
+}
+
+.grid-item-2,
+.grid-item-4 {
+    padding: 2rem 0;
+    text-align: center;
+    background: chocolate;
+    right: 100px;
+    
+}
+
+.grid-item-1 {
+    grid-area: header;
+}
+
+.grid-item-1 img{
+    max-height: 200px;
+    max-width: 1200px; 
+}
+
+.grid-item-2 {
+    grid-area: sidebar;
+ 
+}
+
+.grid-item-3{
+    grid-area: articulo;
+    
+}
+
+.grid-item-3 img{
+
+    max-height: 400px;
+    max-width: 500px;
+}
+
+
+
+.grid-item-5 img{
+    grid-area: footer;
+
+    
+}
+
+.grid-item-5 img{  
+    max-height: 200px;
+    max-width: 1200px; 
+}
+
+
+
+
+
+.Compras {
+    left: 100px;
+}

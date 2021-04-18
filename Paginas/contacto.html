@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principal</title>
+    <link rel="stylesheet" href="../Estilos/Styles.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body class="cuerpo">
+    <header>
+        <div class="cabecera">
+        <h1 class="TituloPrincipal">TITULO DEL SITIO</h1>
+        <div class="menu">
+        <ul>
+            <li><a href="../Index.html">Inicio</span></a></li>
+            <li><a href="./Informacion.html">Información</a></span></li>
+            <li><a href="./compras.html">Compras</a></span></li>
+            <li><a href="./contacto.html">Contactos</span></a></li>
+            <li><a href="./aboutus.html">Sobre nosotros</a></li>
+        </ul>
+        </div>
+    </div>
+    </header>
+
+    <main>
+        <h1 class="SubCompras">¡Contactanos!</h1>
+        <form action="" class="Formulario">
+            <fieldset>
+                <legend class="leyenda">Llená el siguiente formulario</legend>
+                <br>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Tu nombre">
+                <br><br>
+                <label for="lname">Apellido</label>
+                <input type="text" name="lname" id="lname" placeholder="Tu apellido">
+                <br><br>
+                <label for="email">Corréo Electrónico</label>
+                <input type="email" name="email" id="email" placeholder="Tu correo electrónico"> 
+                <br><br> 
+                <label for="sexo" hidden>Sexo</label>
+                <select name="sexo" id="sexo">
+                    <option value="male">Masculino</option>
+                    <option value="female">Femenino</option>
+                    <option value="nogender">No especificado</option>
+                </select>  
+                <br>
+                <h3 class="subcontacto">¿Que tipo de consulta deseas hacer?</h3>
+                <label for="opcion">Laboral</label>
+                <input type="checkbox" name="opcion" id="opcion">
+                <label for="producto">Productos</label>
+                <input type="checkbox" name="producto" id="producto">
+                <label for="disponibilidad">Disponibilidad</label>
+                <input type="checkbox" name="disponibilidad" id="disponibilidad">
+                <br><br>
+                <label for="reset">Restablecer</label>
+                <input type="reset" name="reset" id="reset">
+                <br><br>
+                <input type="submit" name="submit" id="submit" a="../index.html">
+
+            </fieldset>
+        </form>
+        <br><br><br>
+        <div>
+            <button><a href="../Index.html">Volver</a></button>
+         
+        </div>
+    </main>
+    
+    <footer>
+        <div class="redes">
+            <h4 class="redesTitulo">Nuestras redes</h4>
+            <ul>
+                <li><a href="https://www.instagram.com/"><span class="iconify" data-icon="bx:bxl-instagram-alt" data-inline="false"></span></a></li>
+                <li><a href="https://facebook.com/"><span class="iconify" data-icon="ant-design:facebook-filled" data-inline="false"></span></a></li>
+                <li><a href="https://tiktok.com/"><span class="iconify" data-icon="simple-icons:tiktok" data-inline="false"></a></span></li>
+            </ul>
+        </div>
+
+    </footer>
+    
+
+</body>
+</html>
